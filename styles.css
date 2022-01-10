@@ -1,0 +1,253 @@
+#main-div
+{
+    display: flex;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    letter-spacing: .5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*  Left Panel */
+
+#main-div-left
+{
+    width: 25%;
+    height: 100vh;
+}
+
+
+#left-div-upper 
+{
+    height: 10%;
+    background-image: linear-gradient(to right, rgb(255, 0, 76) , rgb(246, 119, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+#logo-picture
+{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+}
+
+
+#left-div-upper-name
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 5px;
+    padding-left: 2px;
+    color: white;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+#left-div-upper-icons
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle-icon
+{
+
+    background: rgba(0, 0, 0, 0.205);
+    padding: 5%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#left-div-lower
+{
+    height: 90%;
+}
+
+
+#left-div-lower-1-titles
+{
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+
+
+#left-div-lower-2
+{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-div-lower-2-limiter
+{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    word-break: break-word;
+    text-align: center;
+}
+
+
+#left-div-lower-2-upper
+{
+    width: 40%;
+    height: 20%;
+    background-image: linear-gradient(to right, rgb(255, 0, 76) , rgb(246, 119, 0));
+    border-radius: 10%;
+    
+    box-shadow: 0 0 2px black;
+}
+
+
+
+
+
+/*  Right Panel */
+#main-div-right
+{
+    width: 75%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+
+#main-div-right-center
+{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#main-div-right-center-1
+{
+    width: 50%;
+    height: 80%;
+    border-radius: 2%;
+    box-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(./assets/profilePic.jpg);
+    background-size: 100% 100%;
+}
+
+
+#main-div-right-center-1-personInfo
+{
+    color: white;
+}
+
+
+#main-div-right-center-1-personBio
+{
+    width: 90%;
+}
+
+
+.circle-icon-sizeM
+{
+    border-radius: 50%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.circle-icon-sizeL
+{
+    border-radius: 50%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+
+#main-div-right-center-1-person-icons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#main-div-right-center-2
+{
+    opacity: .5;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hide-options
+{
+    border-radius: 30px;
+    padding: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.493);
+}
+
+#options-space-bar
+{
+    border-radius: 10%;
+    width: 95%;
+    height: 20%;
+    border: 3px solid black;
+    
+}
+
+.options-icon-text-separator
+{
+    padding-left: 4px;
+}
